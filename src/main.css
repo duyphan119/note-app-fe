@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tox-tinymce{
+    border-radius: 0px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f190;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #9f9f9f;
+}
